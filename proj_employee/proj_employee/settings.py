@@ -38,12 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reg_empuser',
-    'crispy_forms',
-
+    'crispy_forms'
 
 
 ]
-CRISPY_TEMPLATE_PACK = 'bootsrap5'
+
+CRISPY_TEMPLATE_PACK = 'bootsrap3'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

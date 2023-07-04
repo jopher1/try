@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def employee_index(request,id):
-        return HttpResponse(f"<h1>Welcome <i style='color:red'>{id}</i></h1>")
+        return HttpResponse (f"<h1>Welcome <i style='color:red'>{id}</i></h1>")
 
 
 # Create your views here.
